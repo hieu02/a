@@ -5,6 +5,8 @@
 <input type="text" name="Họ" placeholder="Họ">
 <input type="text" name="Tên" placeholder="Tên">
 </form>
+
+
 <form action="/action_page.php">
 <input type="text" name="Số di động hoặc email" placeholder="Số di động hoặc email">
 </form>
