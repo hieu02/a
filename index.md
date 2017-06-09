@@ -182,9 +182,5 @@
   
   <input type="radio" name="gender" value="Nữ"> Nữ
   <input type="radio" name="gender" value="Nam"> Nam
-  </form>
-  
-  
-  <form>
   <input type="submit" value="Tạo tài khoản">
 </form>
