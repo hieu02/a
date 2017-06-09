@@ -179,7 +179,7 @@
   <option value="1905">1905</option>
   </form>
   <form>
-  <input type="radio" name="gender" value="Nữ" checked> Nữ
-  <input type="radio" name="gender" value="Nam"> Nam<br>
+  <input type="radio" name="gender" value="Nữ"> Nữ
+  <input type="radio" name="gender" value="Nam"> Nam
   <input type="submit" value="Tạo tài khoản">
 </form>
