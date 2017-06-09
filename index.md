@@ -178,6 +178,7 @@
   <option value="1906">1906</option>
   <option value="1905">1905</option>
   <form>
+  line-break
   <input type="radio" name="gender" value="Nữ"> Nữ
   <input type="radio" name="gender" value="Nam"> Nam
   <input type="submit" value="Tạo tài khoản">
