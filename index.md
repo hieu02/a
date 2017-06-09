@@ -12,10 +12,7 @@
 <input type="password" name="Mật khẩu mới" placeholder="Mật khẩu mới">
 </form> 
   Ngày sinh:
-  </tr>
 <table style="width:100%">
-  <tr>
-  <td>
   <form>
   <select>
   <option value="Ngày">Ngày</option>
@@ -181,8 +178,8 @@
   <option value="1906">1906</option>
   <option value="1905">1905</option>
   </form>
-  <a class="mlm _58ms" id="birthday-help" href="#" ajaxify="/help/ajax/reg_birthday/" title="Nhấp chuột để biết thêm thông tin" rel="async" role="button" aria-controls="js_iz" aria-haspopup="true" aria-describedby="js_j0" tabindex="0">
-  Tại sao tôi cần cung cấp ngày sinh của mình?</a>
+  
+  
   <form>
   <input type="radio" name="gender" value="Nữ" checked> Nữ
   <input type="radio" name="gender" value="Nam"> Nam<br>
