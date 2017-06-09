@@ -178,8 +178,6 @@
   <option value="1906">1906</option>
   <option value="1905">1905</option>
   </form>
-  
-  
   <form>
   <input type="radio" name="gender" value="Nữ" checked> Nữ
   <input type="radio" name="gender" value="Nam"> Nam<br>
