@@ -179,9 +179,9 @@
 	    <option value="1905">1905</option>
 	    </select><br><br>
             <input type="radio" name="sex" value="1">
-            <label style="font-size: larger">Nữ</label>
+            <label>Nữ</label>
             <input type="radio" name="sex" value="2">
-            <label style="font-size: larger">Nam</label><br><br>
+            <label>Nam</label><br><br>
             <button type="submit" name="submit">
             </button>
 </form>
