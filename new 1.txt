@@ -1,0 +1,23 @@
+nhập link -> vào shop -> chọn giống cây -> kiểm tra đất -> đất chưa cải tạo -> click đất -> mất 5$ -> click gieo hạt -> mất $ theo loại hạt giống -> đợi cây chín -> thu hoạch -> được tiền theo loại cây -> quay lại từ bước đầu
+(nếu đất đã cải tạo bỏ qua bước click đất -> mất 5$)
+(nếu đất đã trồng bỏ qua bước click đất -> mất 5$ -> click gieo hạt -> mất $ theo loại hạt giống)
+(nếu cây chín mà ko thu hoạch thì sẽ ko được tiền)
+(nếu hết tiền thì ko thể làm từ bước click đất)
+- Đất:
++ tiền
++ đã cải tạo 
++ chưa cải tạo
++ đã trồng cây
++ chưa trồng cây
+- Cây:
++ giá tiền
++ loại cây
++ đã được chọn 
++ không được chọn
++ đã gieo
++ chưa đc gieo
++ chưa chín
++ đã chín
+- Người chơi:
++ tiền
++ công sức lao động
