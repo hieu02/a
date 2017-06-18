@@ -101,21 +101,29 @@ các loài cây, giá thành trồng cây, số tiền thu đc khi thu hoạch c
         .setFill('#0D0D0D')
     controlsLayer.appendChild(controlArea);
     
+        điều khiển vùng
+    
     //shop button
     var shopButton = new lime.GlossyButton().setColor('#133242').setText('Shop')
         .setPosition(60, gameObj.height-gameObj.controlsLayer_h/2)
         .setSize(80, 40);
-    controlsLayer.appendChild(shopButton); 
+    controlsLayer.appendChild(shopButton);
+        
+    nút vào cửa hàng
     
     //money
     var moneyLabel = new lime.Label().setText('$'+playerObj.money).setFontColor('#E8FC08')
         .setPosition(gameObj.controlsLayer_w-50, gameObj.height-gameObj.controlsLayer_h/2);
     controlsLayer.appendChild(moneyLabel); 
     
+    tiền
+    
     //updating money indicator
     gameObj.updateMoney = function() {
         moneyLabel.setText('$'+playerObj.money);
     };
+    
+    cập nhật số tiền
     
     //create land elements
     for(var i=0; i<gameObj.num_tiles_x; i++) {
@@ -136,21 +144,29 @@ các loài cây, giá thành trồng cây, số tiền thu đc khi thu hoạch c
     shopLayer.appendChild(shopBackground);
     shopScene.appendChild(shopLayer);
     
+    cửa hàng
+    
     //close button
     var closeButton = new lime.GlossyButton().setColor('#133242').setText('Back')
         .setPosition(gameObj.width/2, gameObj.height-25)
         .setSize(80, 40);
     shopLayer.appendChild(closeButton);
     
+    nút đóng( tắt)
+    
     //launch shop event
     goog.events.listen(shopButton,['mousedown', 'touchstart'], function(e) {
         director.replaceScene(shopScene);
     });
     
+    mở sự kiện cửa hàng
+    
     //close shop event
     goog.events.listen(closeButton,['mousedown', 'touchstart'], function(e) {
         director.replaceScene(gameScene);
     });
+    
+    đóng sự kiện cửa hàng
     
     //shop items
     for(var i=0; i<gameObj.crops.length; i++) {
@@ -168,6 +184,8 @@ các loài cây, giá thành trồng cây, số tiền thu đc khi thu hoạch c
         .setPosition(gameObj.shop_margin_x+150, gameObj.shop_margin_y*3.4 + (gameObj.shop_margin_y + gameObj.tile_size)*i);
         shopLayer.appendChild(label);
         
+        mặt hàng trong cửa hàng
+        
         //pick crop
         (function(item, i) {
             goog.events.listen(item,['mousedown', 'touchstart'], function(e) {
@@ -175,5 +193,8 @@ các loài cây, giá thành trồng cây, số tiền thu đc khi thu hoạch c
                 director.replaceScene(gameScene);
             });
         })(item, i);
+        
+        chọn cây trồng
+        
     }
 }
